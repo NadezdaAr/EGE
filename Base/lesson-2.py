@@ -26,3 +26,15 @@ print(type(my_list))
 # Кортеж / Tuple / tuple
 my_tuple = ("Vladimir", 18, 140.5)
 print(type(my_tuple))
+
+# Множество / Set / set
+my_set = {1, 1, 1, 2, 2}
+print(my_set)
+
+# Словарь / Dictionary / dict
+my_dict = {'name':'Ivan', 'age':20}
+print(my_dict['name'])
+
+# Логический тип / Boolean / bool
+my_bool_1 = True
+my_bool_2 = False
