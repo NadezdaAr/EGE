@@ -1,4 +1,9 @@
-data = ("PPP****PP**")
+with open(r'..\files\24_1975.txt') as file:
+    data = file.readlines()
+
+# file = open(r'..\files\24_1975.txt')
+# data = file.readline()
+# file.close()
 
 cnt = 1
 ans = 0
