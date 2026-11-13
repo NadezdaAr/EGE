@@ -33,7 +33,7 @@ def convert(num, sys):
 from string import printable as alph
 
 
-def convert2(num, sys):
+def convert(num, sys):
     res = ''
     while num:
         res += alph[num % sys]
